@@ -1,0 +1,64 @@
+
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Barbarousse | Kuriat</title>
+<style>
+:root{--b:#5a321d;--bd:#2e180d;--s:#f4eadc;--t:#176477;--g:#c99a5a}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;background:var(--s);color:#2b211b}a{text-decoration:none;color:inherit}.nav{position:fixed;z-index:9;top:0;width:100%;height:74px;padding:0 6%;display:flex;justify-content:space-between;align-items:center;background:#2e180df2;color:#fff}.logo{font-family:Georgia,serif;font-size:20px}.links{display:flex;gap:24px;list-style:none}.links a:hover{color:#e7c18c}.reserve{background:var(--g);padding:10px 18px;border-radius:8px}.hero{min-height:700px;padding:145px 7% 80px;color:#fff;display:flex;align-items:center;background:linear-gradient(90deg,#231209eb,#23120988,#23120920),url("barbarousse.jpg") center/cover}.hero h1{font:clamp(50px,7vw,85px) Georgia;margin:15px 0;line-height:1}.hero h1 span{color:#e3b879}.hero p{font-size:18px;max-width:650px}.btn{display:inline-block;border:0;padding:13px 21px;border-radius:9px;font-weight:bold;cursor:pointer;margin:8px 6px 0 0}.main{background:var(--g);color:#fff}.light{background:#fff;color:var(--b)}section{padding:80px 6%}.features{margin:-40px 6% 0;position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.feature{background:var(--t);color:#fff;padding:20px;text-align:center;border-radius:14px}.title{text-align:center;color:var(--b);font:40px Georgia}.sub{text-align:center;color:#75695f;max-width:700px;margin:0 auto 40px}.timeline{max-width:1050px;margin:auto}.time{display:grid;grid-template-columns:125px 1fr;background:#fff;margin:15px 0;padding:20px;border-radius:14px;box-shadow:0 8px 25px #321e0f12}.clock{color:var(--b);font-weight:bold;border-right:2px solid var(--s);padding:10px;text-align:center}.time .txt{padding-left:20px}.gallery,.meals,.prices{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.photo{height:280px;overflow:hidden;border-radius:15px;position:relative}.photo img{width:100%;height:100%;object-fit:cover}.photo span{position:absolute;bottom:0;left:0;right:0;padding:25px 15px 12px;color:#fff;background:linear-gradient(transparent,#000b);font-weight:bold}.meal,.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 10px 30px #321e0f18}.meal img{width:100%;height:270px;object-fit:cover}.meal div,.card{padding:22px}.vip{max-width:1100px;margin:auto;background:linear-gradient(135deg,var(--bd),#70401f);color:#fff;padding:40px;border-radius:22px}.vip h2{font:40px Georgia;color:#efc48c}.vipimgs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.vipimgs img{width:100%;height:200px;object-fit:cover;border-radius:10px}.vipprice{font-size:36px;color:#efc48c;font-weight:bold}.prices{grid-template-columns:repeat(4,1fr)}.card{text-align:center;border-top:5px solid var(--b)}.amount{font-size:32px;font-weight:bold;color:var(--b)}#reservation{background:linear-gradient(#eadbc9,#dcecef)}.box{max-width:950px;margin:auto;background:#fff;border-radius:20px;overflow:hidden}.head{background:linear-gradient(135deg,var(--bd),var(--b));color:#fff;padding:30px}.head h2{font:38px Georgia;margin:0}.form{padding:30px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.group label{display:block;font-weight:bold;color:var(--bd);margin-bottom:6px}.group input{width:100%;padding:13px;border:1px solid #d7c7b6;border-radius:8px}.people{grid-column:1/-1;background:#fbf5ed;border-radius:14px;padding:20px}.person{display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px solid #e4d8ca}.person:last-child{border:0}.person small{display:block;color:#75695f}.counter button{width:34px;height:34px;border:0;background:var(--b);color:#fff;border-radius:7px;font-size:19px}.counter span{display:inline-block;width:38px;text-align:center;font-weight:bold}.summary{margin:0 30px 30px;padding:22px;background:var(--t);color:#fff;border-radius:14px;display:flex;justify-content:space-between;align-items:center;gap:15px}.total{font-size:36px;font-weight:bold}.confirm{border:0;background:var(--g);color:#fff;padding:13px 20px;border-radius:8px;font-weight:bold;cursor:pointer}.success{display:none;margin:0 30px 25px;padding:18px;background:#e8f6eb;border:1px solid #a8d4b3;border-radius:10px;color:#205c34}.success.show{display:block}footer{background:#24130b;color:#fff;padding:45px 6%;text-align:center}
+@media(max-width:800px){.links{display:none}.features,.prices,.gallery,.meals,.vipimgs{grid-template-columns:1fr 1fr}.form{grid-template-columns:1fr}.people{grid-column:auto}.summary{margin:0 20px 20px;flex-direction:column;align-items:flex-start}}@media(max-width:520px){.features,.prices,.gallery,.meals,.vipimgs{grid-template-columns:1fr}.time{grid-template-columns:80px 1fr}.hero{padding:120px 6% 70px}.hero h1{font-size:52px}}
+</style></head><body>
+<header class="nav"><a class="logo" href="#home">⚓ BARBAROUSSE KERWANA MARINE</a><ul class="links"><li><a href="#programme">Programme</a></li><li><a href="#repas">Repas</a></li><li><a href="#tarifs">Tarifs</a></li><li><a class="reserve" href="#reservation">Réserver</a></li></ul></header>
+<section class="hero" id="home"><div><small>kerwana Marine</p><a class="btn main" href="#reservation">Réserver ma place</a><a class="btn light" href="#programme">Voir le programme</a></div></section>
+<div class="features"><div class="feature">🚢<h3>09:00</h3><p>Départ Sayada</p></div><div class="feature">🏝️<h3>10:00</h3><p>Arrivée Kuriat</p></div><div class="feature">🍽️<h3>13:00</h3><p>Déjeuner</p></div><div class="feature">🤿<h3>Après-midi</h3><p>Activités</p></div></div>
+<section id="programme"><h2 class="title">Programme de la journée</h2><p class="sub">Une journée complète entre mer, plage, repas et activités.</p><div class="timeline">
+<div class="time"><div class="clock">09:00</div><div class="txt"><h3>Départ du Port de Sayada</h3><p>Embarquement à bord de Barbarousse.</p></div></div>
+<div class="time"><div class="clock">10:00</div><div class="txt"><h3>Arrivée à Kuriat</h3><p>Descente de Barbarousse, parasols préparés, installation et baignade.</p></div></div>
+<div class="time"><div class="clock">10:00 → 13:00</div><div class="txt"><h3>Mer & plage</h3><p>Temps libre pour nager et profiter de la mer.</p></div></div>
+<div class="time"><div class="clock">13:00</div><div class="txt"><h3>Déjeuner</h3><p>Déjeuner servi à Kuriat.</p></div></div>
+<div class="time"><div class="clock">Après-midi</div><div class="txt"><h3>Petit bateau </h3><p>Petite pause puis sortie en petit bateau vers une autre zone.</p></div></div>
+<div class="time"><div class="clock">16:30 → 17:00</div><div class="txt"><h3>Retour</h3><p>Retour à Kuriat puis vers le Port de Sayada.</p></div></div></div></section>
+<section><h2 class="title">La journée en images</h2><p class="sub">Mets tes photos dans le même dossier et garde ces noms, ou modifie les noms dans le code.</p><div class="gallery">
+<div class="photo"><img src="barbarousse.jpg"><span>Barbarousse</span></div><div class="photo"><img src="kuriat.jpg"><span>Kuriat</span></div><div class="photo"><img src="plage.jpg"><span>Plage & parasols</span></div><div class="photo"><img src="food1.jpg"><span>Déjeuner</span></div><div class="photo"><img src="food2.jpg"><span>Spécialités de la mer</span></div><div class="photo"><img src="boat.jpg"><span>Petit bateau</span></div></div></section>
+<section id="repas"><h2 class="title">Le déjeuner</h2><p class="sub">Présentation du repas classique et de l'expérience VIP.</p><div class="meals">
+<div class="meal"><img src="food1.jpg"><div><h2>Formule classique</h2><p>Repas convivial préparé pour la journée à Kuriat.</p><ul><li>Spécialité de la mer</li><li>Accompagnement</li><li>Salade</li><li>Fruit / dessert</li></ul></div></div>
+<div class="meal"><img src="food2.jpg"><div><h2>Moment gourmand</h2><p>Déjeuner avec vue sur la mer .</p></div></div></div></section>
+<section><div class="vip"><h2>Expérience VIP 👑</h2><p>120 DT par personne avec un repas VIP différent du repas classique.</p><div class="vipimgs"><img src="vip1.jpg"><img src="vip2.jpg"><img src="vip3.jpg"></div><div class="vipprice">120 DT / personne</div></div></section>
+<section id="tarifs"><h2 class="title">Nos tarifs</h2><p class="sub">Les prix sont automatiquement utilisés dans la facture.</p><div class="prices"><div class="card"><h3>Adultes</h3><div class="amount">75 DT</div><p>À partir de 10 ans</p></div><div class="card"><h3>Enfants</h3><div class="amount">55 DT</div><p>Moins de 10 ans</p></div><div class="card"><h3>Petits enfants</h3><div class="amount">Gratuit</div><p>Moins de 3 ans</p></div><div class="card"><h3>VIP 👑</h3><div class="amount">120 DT</div><p>Repas VIP spécial</p></div></div></section>
+<section id="reservation"><div class="box"><div class="head"><h2>Réservez votre journée</h2><p>La facture est calculée automatiquement puis préparée pour WhatsApp.</p></div>
+<form class="form" id="reservationForm"><div class="group"><label>Nom & prénom</label><input id="name" required placeholder="Votre nom et prénom"></div><div class="group"><label>Numéro de téléphone</label><input id="phone" required placeholder="Votre numéro"></div><div class="group"><label>Date de sortie</label><input id="date" type="date" required></div><div class="group"><label>Remarque</label><input id="note" placeholder="Facultatif"></div>
+<div class="people"><h3>Nombre de personnes</h3>
+<div class="person"><div><b>Adultes</b><small>75 DT / personne</small></div><div class="counter"><button type="button" onclick="chg('adult',-1)">−</button><span id="adult">0</span><button type="button" onclick="chg('adult',1)">+</button></div></div>
+<div class="person"><div><b>Enfants</b><small>Moins de 10 ans — 55 DT</small></div><div class="counter"><button type="button" onclick="chg('child',-1)">−</button><span id="child">0</span><button type="button" onclick="chg('child',1)">+</button></div></div>
+<div class="person"><div><b>Enfants</b><small>Moins de 3 ans — gratuit</small></div><div class="counter"><button type="button" onclick="chg('baby',-1)">−</button><span id="baby">0</span><button type="button" onclick="chg('baby',1)">+</button></div></div>
+<div class="person"><div><b>VIP 👑</b><small>120 DT / personne</small></div><div class="counter"><button type="button" onclick="chg('vip',-1)">−</button><span id="vip">0</span><button type="button" onclick="chg('vip',1)">+</button></div></div>
+</div></form>
+<div class="summary"><div><small>Personnes</small><div id="people">0 personne</div></div><div><small>Total facture</small><div class="total" id="total">0 DT</div></div><button class="confirm" onclick="send()">Confirmer & WhatsApp</button></div><div class="success" id="ok"></div></div></section>
+<section class="cta"><h2>Prêt pour Kuriat ? 🌊</h2><p>Réserve ta place et prépare-toi à une journée entre mer, soleil et bonne cuisine.</p><a class="btn main" href="#reservation">Réserver maintenant</a></section>
+<footer>⚓ BARBAROUSSE Kerwana Marine  • Port de Sayada • Kuriat • 📞 51 279 960</footer>
+<script>
+const P={adult:75,child:55,baby:0,vip:120},Q={adult:0,child:0,baby:0,vip:0},WA="216"+"51279960";
+function calc(){let n=Q.adult+Q.child+Q.baby+Q.vip,t=Q.adult*75+Q.child*55+Q.vip*120;document.getElementById("people").textContent=n+(n===1?" personne":" personnes");document.getElementById("total").textContent=t+" DT";return{n,t}}
+function chg(k,x){Q[k]=Math.max(0,Q[k]+x);document.getElementById(k).textContent=Q[k];calc()}
+function send(){
+ let name=document.getElementById("name").value.trim(),phone=document.getElementById("phone").value.trim(),date=document.getElementById("date").value,note=document.getElementById("note").value.trim();
+ if(!name||!phone||!date){alert("Veuillez remplir le nom, le téléphone et la date.");return}
+ let r=calc();if(!r.n){alert("Veuillez choisir au moins une personne.");return}
+ let d=new Date(date+"T00:00:00").toLocaleDateString("fr-FR");
+ let m=`🌊 BARBAROUSSE — FACTURE / RÉSERVATION
+
+👤 Nom & prénom : ${name}
+📞 Téléphone : ${phone}
+📅 Date : ${d}
+
+👥 DÉTAIL
+• Adultes : ${Q.adult} × 75 DT = ${Q.adult*75} DT
+• Enfants -10 ans : ${Q.child} × 55 DT = ${Q.child*55} DT
+• Enfants -3 ans : ${Q.baby} × Gratuit = 0 DT
+• VIP : ${Q.vip} × 120 DT = ${Q.vip*120} DT
+
+👥 Total personnes : ${r.n}
+💰 TOTAL : ${r.t} DT`;
+ if(note)m+=`\n📝 Remarque : ${note}`;m+="\n\n✅ Demande de réservation depuis le site.";
+ let url="https://wa.me/"+WA+"?text="+encodeURIComponent(m);
+ document.getElementById("ok").innerHTML="✅ <b>Facture préparée !</b><br>WhatsApp va s'ouvrir avec le détail de la réservation. Appuie ensuite sur <b>Envoyer</b>.";
+ document.getElementById("ok").classList.add("show");window.open(url,"_blank");
+}
+document.getElementById("date").min=new Date().toISOString().split("T")[0];calc();
+</script></body></html>
